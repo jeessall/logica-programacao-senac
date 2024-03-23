@@ -1,0 +1,79 @@
+variaveis - var let const / elemento responsavel por armazenar informações para que sejam utilizadas no desenvolvimento do sistema.
+
+Tipos de variaveis:
+    - Texto (string) "texto"
+    - Inteiro (Int, number) Armazena só números inteiros "10"
+    - Decimal (Float, Double, Decimal) "10.1"
+    - Boleano (True, False) "True"
+    - Lista [Varias informações] 
+
+
+Lógica de programação
+
+Algoritimo - É uma série de passos realizados para resolver um determinado problema.
+
+Inicio: Como fazer um miojo
+
+ir na cozinha
+pegar o miojo
+pegar uma panela
+colocar água esquentar
+colocar o miojo na água quente
+temperar e servir
+
+Fim:
+
+Condicionais: IF ELSE / SESIM SENÃO
+
+    (IF)SE tiver miojo
+        pega o miojo
+    (ELSE)SENÃO tiver miojo
+        compra miojo
+
+Rotina - Faz os mesmos passos diariamente
+
+Dia 1: 
+    Acordar
+    Trocar de roupa
+    Lavar o rosto
+    Tomar café
+    Escovar os dentes 
+    arrumar o cabelo
+    Sair para trabalhar
+
+Variavel - Guarda informação
+Função - Guarda o passo a passo sendo 1 ou mais passos
+
+Algoritimo do miojo:
+
+    (IF)SE tiver miojo
+        pega o miojo e faz o miojo
+    (ELSE)SENÃO tiver miojo
+        compra miojo
+
+Rotina do miojo () {
+    vai para o almoço
+    cozinha o miojo
+    come o miojo
+}
+
+(var) 
+    texto nome = "Jéssica"
+    texto sexo1 = "masculino"
+    texto sexo2 = "feminino"
+    inteiro altura = 62
+    inteiro idade = 25
+
+escreva(idade);
+
+lista [
+    nome
+    sexo1
+    sexo2
+    altura
+    idade
+]
+
+Dentro das variaveis declaradas se tiver entre aspas "" vai se considerada string se não vai ser considerada uma variavel atribuindo outra variavel
+
+**** Usar visualG para simular o código na nossa linguagem (portugues)
