@@ -1,4 +1,4 @@
-<script>
+
 //pegar conteudo aula 2
 
 //aula3 - condições OU e E
@@ -6,7 +6,8 @@
 //E = && as duas condições precisam ser verdadeiras
 //OU = || uma ou outra condição precisa ser verdadeira
 
-/*EX: 
+//EX:
+
     let  nota_1 = parseInt(prompt("Qual a sua primeira nota? "));
     let nota_2 = parseInt(prompt("Qual a sua sefunda nota? "));
     let media = (nota_1 + nota_2)/2
@@ -18,9 +19,9 @@
     } else {
         console.log("Aluno aprovado com distinção!")
     }
-*/
 
-/*let  nota_1 = parseInt(prompt("Qual a sua primeira nota? "));
+
+let  nota_1 = parseInt(prompt("Qual a sua primeira nota? "));
 let nota_2 = parseInt(prompt("Qual a sua sefunda nota? "));
 let media = (nota_1 + nota_2)/2;
 
@@ -31,7 +32,6 @@ if(media < 7) {
 }else {
     console.log("Nota invalida, tente novamente")
 }
-*/
 
 //Nota não pode ser maior que 10 nem menor que zero, exibir nota invalida
 
@@ -64,4 +64,3 @@ let soma_horas = hora_trabalhada * valor_hora
 
 console.log(soma_horas)
 
-</script>

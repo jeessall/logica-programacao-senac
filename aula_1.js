@@ -1,4 +1,4 @@
-<script>
+
 //AULA 01
 
 //var
@@ -136,8 +136,6 @@ let coberturaLata = parseInt(prompt('Quantos metros quadrados a tinta cobre? '))
 
 
 console.log(medidaMuro / coberturaLata)
-
-</script>
 
 
 

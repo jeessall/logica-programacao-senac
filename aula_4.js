@@ -26,7 +26,7 @@ console.log("Aumento aplicado ",aumentoAplicado)
 console.log("Valor aumento ",valorAumento)
 console.log("Valor novo salario ",valorNovoSalario)
 
-ATIVIDADE
+/*ATIVIDADE
 
 As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e lhe contraram para desenvolver o programa que calculará os reajustes.
 Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
@@ -37,7 +37,7 @@ salários de R$ 1500,00 em diante : aumento de 5% Após o aumento ser realizado,
 o salário antes do reajuste;
 o percentual de aumento aplicado;
 o valor do aumento;
-o novo salário, após o aumento.
+o novo salário, após o aumento.*/
 
 
 let salario = parseFloat(prompt('Qual o valor do sálario? '))
@@ -81,7 +81,7 @@ if(salario <= 280) {
     console.log('Valor após aumento ', valorAposAumento)
 }
 
-ATIVIDADE 2
+//ATIVIDADE 2
 //dado de entrada altua H
 //calcular peso com formula
 //homem ou mulher
