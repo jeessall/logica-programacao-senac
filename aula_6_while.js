@@ -97,5 +97,51 @@ while(true) {
 // 2 - contador de placar
 // 3 - finalizar o jogo
 
+CÓDIGO COM DESAFIO
+
+let pedra1 = 'pedra'
+let papel2 = 'papel'
+let tesoura3 = 'tesoura'
+console.log('Sendo: pedra  papel ou tesoura')
+
+while(true) {
+    let jogador1 = prompt("Digite sua jogada? ")
+    let jogador2 = prompt("Digite sua jogada? ")
+    if(jogador1 === pedra1 && jogador2 === papel2){
+        console.log('jogador 2 ganhou')
+    }else if(jogador2 === pedra1 && jogador1 === papel2){
+        console.log('Jogador 1 ganhou')
+    }else if(jogador1 === tesoura3 && jogador2 === pedra1){
+        console.log('Jogador 2 ganhou')
+    }else if(jogador2 === tesoura3 && jogador1 === pedra1){
+        console.log('Jogador 1 ganhou')
+    }else if(jogador1 === papel2 && jogador2 === tesoura3){
+        console.log('Jogador 2 ganhou')
+    }else if(jogador2 === papel2 && jogador1 === tesoura3){
+        console.log('Jogador 1 ganhou')
+    }else if(jogador1 === pedra1 && jogador2 === papel2){
+        console.log('Jogador 2 ganhou')
+    }else if(jogador2 === pedra1 && jogador1 === papel2){
+        console.log('Jogador 1 ganhou')
+    }else if(jogador1 === tesoura3 && jogador2 === pedra1){
+        console.log('Jogador 2 ganhou')
+    }else if(jogador2 === tesoura3 && jogador1 === pedra1){
+        console.log('Jogador 1 ganhou')
+    }else if(jogador1 == tesoura3 && jogador2 == tesoura3){
+        console.log('Empate jogue novamente!')
+    }else if(jogador1 == papel2 && jogador2 == papel2){
+        console.log('Empate jogue novamente!')
+    }else if(jogador1 == pedra1 && jogador2 == pedra1){
+        console.log('Empate jogue novamente!')
+    }else{
+        console.log('Jogada invalida, tente novamente')
+        
+    }
+    
+}
+
+// 1 - validar jogada invalida ok
+// 2 - contador de placar
+// 3 - finalizar o jogo
 
 
