@@ -95,32 +95,32 @@
 
 //ATIVIDADE AULA 8: FAÇA UM PROGRAMA QUE TENHA 4 OPÇÕES SENDO ELA CADASTRAR CLIENTE, REMOVER ULTIMO CLIENTE, VER LISTA DE CLIENTES, SAIR DA APLICAÇÃO
 
-console.log('Cadastre um usuario 1 = Cadastrar 2 = Remover')
+
 let listaUsuarios = []
-let opcao = prompt('Qual opção deseja usar? ')
-console.log('digite 3 para concluir a lista')
-    
+
+
 while(true){
+    
+    console.log('Cadastre um usuario 1 = Cadastrar 2 = remover 3 = lista de clientes 4 = sair ')
+    let opcao = prompt('Qual opção deseja usar? ')
     
     if(opcao == 1){
         let cadastrar = prompt('Qual o nome do usuario a ser cadastrado? ')
         listaUsuarios.push(cadastrar)
         console.log('Usuario cadastrado! ')
     }else if(opcao == 2){
-        console.log('Lista de usuarios' + listaUsuarios)
         listaUsuarios.pop()
-        console.log('ultimo usuario removido! ')
+        console.log('Ultimo usuario foi removido com sucesso! ')
+    }else if(opcao == 3){
+        console.log(listaUsuarios)
+    }else if(opcao == 4){
+        console.log('Aplicação encerrada! ')
+        break
+    }else{
+        console.log('Opção invalida!')
     }
 }
 
-//  if(cadastrar == 3){
-//             console.log(listaUsuarios)
-//             let opcao = prompt('Qual opção deseja usar? ')
-//         }
-// if(opcao == 2){
-//             listaUsuarios.pop()
-//             console.log('ultimo usuario removido! ')
-//             console.log('Lista de usuarios' + listaUsuarios)
 //             break
 
 
