@@ -25,6 +25,11 @@
 // lista.pop()
 // console.log(lista.pop())
 
+// //metodo shift remove o primeiro elemento
+
+// lista.shift()
+// console.log(lista.shift())
+
 //usando for em listas
 //criei uma variavel que vai rodar dentro da minha lista exibindo todos os elementos dela em indice
 // for(var item in lista){
